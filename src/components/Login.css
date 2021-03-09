@@ -1,0 +1,15 @@
+.g-btn{
+    width: 70%;
+    color: var(--default-color);
+   font: var(--secondary-font);
+   font-weight: bold;
+   margin-top: 100px;
+   
+}
+
+.google-logo{
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin: 6px 5px;
+}

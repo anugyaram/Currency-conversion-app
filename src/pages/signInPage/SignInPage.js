@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignInPage.css";
 import Login from "../../components/Login";
-import Logout from "../../components/Logout";
+
 
 function SignIn(){
     return(
@@ -13,7 +13,6 @@ function SignIn(){
                 alt="" />
                 <div className="sign-in-card-body">
                     <Login />
-                    <Logout />
                 </div>
             </div>
         </div>

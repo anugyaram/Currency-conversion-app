@@ -1,4 +1,5 @@
 import React from "react";
+import "./Login.css";
 import { useGoogleLogin } from "react-google-login";
 import { refreshTokenSetup } from "../utils/refreshToken";
 
@@ -12,6 +13,7 @@ function Login(){
 
     const onFailure = (res) => {
         console.log("Login Failed: res", res);
+        alert.show('Oh look, an alert!')
     };
 
     const { signIn } = useGoogleLogin({
@@ -23,8 +25,11 @@ function Login(){
     });
 
     return(
-        <button onClick={signIn} className="button" >
-            Sign In with Google
+        <button onClick={signIn} className="g-btn" >
+            <img src="/image/google.png"
+            alt=""
+            className="google-logo" />
+            <p>Sign In with Google</p> 
         </button>
     );
 }
