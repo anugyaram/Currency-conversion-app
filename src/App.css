@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #02143A;
+    --secondary-color: #13F2DC;
+    --default-color: #0554F2;
+    --primary-font: "Open Sans", sans-serif;
+    --secondary-font: "Nunito", sans-serif;
+    --font-color: #3f3f3f;
+  }
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #0554F2;
+    background-image: linear-gradient(to right,#0554F2,#13F2DC,#0554F2);
+    height: 10px;
+    color: var(--font-color);
+  }

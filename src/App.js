@@ -1,11 +1,17 @@
 import './App.css';
-import Main from "./pages/MainPage";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import SignIn from "./pages/signInPage/SignInPage";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/">
+          <SignIn />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
