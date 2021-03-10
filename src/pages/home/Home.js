@@ -1,9 +1,12 @@
 import React from "react";
 import "./Home.css";
+import { useHistory } from "react-router-dom";
 
 function Home(){
-    const signInPage = () => {
-        console.log("success");
+    let history = useHistory();
+
+    const onClickSignIn = () => {
+        history.push("/signin");
     }
 
     return(
@@ -16,7 +19,7 @@ function Home(){
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
             </div>
             <div className="button">
-                <button className="btn"  onClick={signInPage} >Get started</button>
+                <button className="btn"  onClick={onClickSignIn} >Get started</button>
             </div>
         </div>
     );
