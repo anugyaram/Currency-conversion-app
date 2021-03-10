@@ -1,0 +1,9 @@
+.logout-btn{
+    width: 120px;
+    font: var(--primary-font);
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 4px;
+}

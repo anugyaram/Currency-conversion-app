@@ -1,4 +1,5 @@
 import React from "react";
+import "./Logout.css";
 import { useGoogleLogout } from "react-google-login";
 import { useHistory } from "react-router-dom";
 
@@ -23,8 +24,8 @@ function Logout(){
     });
 
     return(
-        <button onClick={signOut} >
-            Sign out
+        <button onClick={signOut} className="logout-btn">
+           Logout 
         </button>
     );
 }
