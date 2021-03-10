@@ -1,16 +1,13 @@
 import React from "react";
 import "./Main.css";
 import Logout from "../../components/Logout";
+import RightForm from "../../components/RightForm";
+
 
 function Main(){
     return(
-        <div className="main-page">
-            <div className="left-section">
-                <h2>Currency Converter</h2>
-            </div>
-            <div className="right-section">
-                
-            </div>
+        <div className="main-page"> 
+            <RightForm  />
             <Logout className="logout-btn"/>
         </div>
     );

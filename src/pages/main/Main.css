@@ -1,21 +1,3 @@
-.main-page{
-    display: flex;
-}
-
-.left-section{
-    margin: 40px;
-    width: 50%;
-    color: #fff;
-}
-
-.right-section{
-    width: 50%;
-    color: var(--secondary-color);
-    height: 800px;
-    background-color: #000;
-    opacity: .8;
-
-}
 
 .logout-btn{
     float: right;
