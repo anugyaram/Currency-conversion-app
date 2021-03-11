@@ -12,9 +12,6 @@ function App() {
         <Route path="/main">
           <Main />
         </Route>
-        <Route path="/signup">
-
-        </Route>
         <Route path="/signin">
           <SignIn />
         </Route>
