@@ -110,9 +110,17 @@ class RightForm extends React.Component {
 		 </form>  
 		 </div>
 		 <div className="right-side">
-		 	<h2 id='result-text'>{baseAmount} {baseCurrency} is equal to {result} {convertToCurrency}</h2>
-		</div>                     
-		 
+			<div className="amount">
+				<p className="base-amt">{baseAmount}</p>
+				<p className="base-currency">{baseCurrency}</p>
+			</div>
+		 	
+			 <div className="new-amount">
+				 <p className="base-amt">{result}</p>
+				 <p className="base-currency">{convertToCurrency}</p>
+			 </div>
+		</div> 
+		                    
 	   </div>
 	  );
 	}
@@ -120,3 +128,4 @@ class RightForm extends React.Component {
   
 
 export default RightForm;
+//<h2>{baseAmount} {baseCurrency} is equal to {result} {convertToCurrency}</h2>

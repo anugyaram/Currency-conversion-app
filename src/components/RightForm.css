@@ -4,22 +4,24 @@
 
 .heading{
     font: var(--secondary-font);
-    font-size: 200%;
     font-weight: bold;
-    margin-top: 7px;
+    color: #fff;
+    font-size: 220%;
+    position: absolute;
+    top: 20px;
+    left: 40px;
 }
 
 .right-side{
     width: 50%;
     color: white;
-    height: 800px;
     background-color: #000;
     opacity: .8;
-
+    height: 720px;
 }
 
 .left-side{
-    margin-top: 10%;
+    margin-top: 12%;
     width: 50%;
     color: #fff;
 }
@@ -30,7 +32,7 @@
 
 .amt-input{
     height: 40px;
-    width: 500px;
+    width: 70%;
     border-radius: 30px;
     padding-left: 20px;
     font-size: 20px;
@@ -44,7 +46,7 @@ input::-webkit-inner-spin-button {
 
 select{
     height: 40px;
-    width: 520px;
+    width: 72%;
     border-radius: 30px;
     padding-left: 20px;
     font-size: 20px;
@@ -61,4 +63,83 @@ select{
 
 .to{
     margin: 40px;
+}
+
+.amount{
+    text-align: right;
+    margin: 240px 100px 10px;
+}
+
+.base-amt{
+    margin-bottom: 0px;
+    font: var(--primary-font);
+    font-size: 400%;
+    color: var(--secondary-color);
+}
+
+.base-currency{
+    margin-top: 0px;
+    font: var(--primary-font);
+    font-size: 120%;
+    opacity: .6;
+}
+
+.new-amount{
+    text-align: right;
+    margin: 100px 100px 10px;
+}
+
+@media screen and (min-height: 720px){
+    .right-side{
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .form-container{
+        display: block;
+    }
+
+    .heading{
+        margin-top: 20%;
+    }
+    .left-side{
+        width: 100%;
+        margin-top: 40%;
+    }
+    .right-side{
+        width: 100%;
+
+    }
+    .amount{
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 374px){
+    .form-container{
+        display: block;
+    }
+    .heading{
+        margin-top: 29%;
+    }
+    .left-side{
+        width: 100%;
+        margin-top: 62%;
+    }
+    .right-side{
+        width: 100%;
+
+    }
+    .amount{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .new-amount{
+        margin: 0px;
+        text-align: center;
+    }
 }
