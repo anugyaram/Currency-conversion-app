@@ -1,46 +1,41 @@
 .home-page{
-    position: relative;
-    text-align: center;
-}
-.b-img{  
-   width: 100%;
+    display: flex;
 }
 
 .home-heading{
-    font: var(--primary-font);
+    font: var(--secondary-font);
     font-weight: bolder;
-    font-size: 400%;
-    color:#fff;
-    position: absolute;
-    top: 40px;
-    left: 40px;
+    font-size: 700%;
+    color:#000;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
 }
 
 .text{
-    position: absolute;
-    color:#fff;
-    top: 10%;
-    left:40px;
-    width: 40%;
+    color:var(--primary-color);
+    margin-top: 13%;
+    width: 30%;
     text-align: left;
-    font: var(--primary-font);
+    float: right;
+    font: var(--secondary-font);
+    margin-left: 10%;
+    font-size: 130%;
 }
 
-.button{
-    position: absolute;
-    top: 20%;
-    left: 40px;
-}
 
 .btn{
     width: 150px;
     height: 40px;
     font: var(--primary-font);
     border-radius: 20px;
-    background-color: #fff;
-    color: var(--default-color);
+    background-color: var(--primary-color);
+    color: #000;
     font-weight: bold;
     border: 0;
+    float: right;
+    margin-right: 24%;
+    margin-top: 3%;
 }
 
 @media screen and (max-width: 1024px){

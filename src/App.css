@@ -1,15 +1,12 @@
 :root {
-    --primary-color: #02143A;
-    --secondary-color: #13F2DC;
-    --default-color: #0554F2;
+    --primary-color: #0b84d5;
     --primary-font: "Open Sans", sans-serif;
     --secondary-font: "Nunito", sans-serif;
     --font-color: #3f3f3f;
   }
   body {
     font-family: "Source Sans Pro", sans-serif;
-    background-color: #0554F2;
-    background-image: linear-gradient(to right,#02143A 0%,#0554F2 20%,#13F2DC 50%,#0554F2 80%,#02143A 100%);
-    height: 10px;
+    background: linear-gradient(120deg, #0b84d5 50%, #000 50%);
+    height: 1000px;
     color: var(--font-color);
   }

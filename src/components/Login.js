@@ -32,7 +32,7 @@ function Login(){
         <button onClick={signIn} className="g-btn" >
             <img src="/image/google.png"
             alt=""
-            className="google-logo" />
+            className="google-logo" />&nbsp;&nbsp;
             <p>Sign In with Google</p> 
         </button>
     );

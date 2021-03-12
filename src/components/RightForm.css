@@ -5,7 +5,7 @@
 .heading{
     font: var(--secondary-font);
     font-weight: bold;
-    color: #fff;
+    color: #000;
     font-size: 220%;
     position: absolute;
     top: 20px;
@@ -14,16 +14,14 @@
 
 .right-side{
     width: 50%;
-    color: white;
-    background-color: #000;
-    opacity: .8;
+    color: #fff;
     height: 720px;
 }
 
 .left-side{
     margin-top: 12%;
     width: 50%;
-    color: #fff;
+    color: #000;
 }
 
 .label{
@@ -74,14 +72,14 @@ select{
     margin-bottom: 0px;
     font: var(--primary-font);
     font-size: 400%;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .base-currency{
     margin-top: 0px;
     font: var(--primary-font);
     font-size: 120%;
-    opacity: .6;
+    opacity: .8;
 }
 
 .new-amount{
